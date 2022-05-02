@@ -1,0 +1,53 @@
+syntax = "proto3"; // 声明一个版本
+
+package fixbug; // 声明一个包,在C++中，为一个 namespace
+
+option cc_generic_services = true;
+
+message LoginRequest
+{
+    bytes name = 1;
+    bytes pwd = 2;
+}
+
+message resultCode
+{
+    int32 errorcode = 1;
+    bytes errorMsg = 2;
+}
+
+message LoginResponse
+{
+    resultCode r1 = 1;
+    bytes success = 2;
+}
+
+message User
+{
+    bytes name = 1;
+    uint32 age = 2;
+    enum Sex
+    {
+        MAN = 0;
+        WOMAN = 1;
+    }
+    Sex sex = 3;
+}
+
+message GetFriendRequest
+{
+    uint32 userId = 1;
+}
+
+message GetFriendListResponse
+{
+    resultCode result = 1;
+    repeated User friend_list = 2;
+}
+
+// 定义 rpc通信的 service 类
+service UserServiceRpc
+{
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc GetFriendLists(GetFriendRequest) returns(GetFriendListResponse);
+}

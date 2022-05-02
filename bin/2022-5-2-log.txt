@@ -1,0 +1,19 @@
+13:45:39 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29
+13:56:22 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29
+13:56:22 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+13:56:26 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+13:56:56 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:6:18 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29
+14:6:18 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:6:27 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:6:57 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:7:27 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:8:59 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29
+14:8:59 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:9:3 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:11:34 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29
+14:11:34 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:11:38 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:109
+14:18:57 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29
+14:18:57 =>[error] rpc_header_str :  => /home/admin/linux/RPC/src/rpcprovider.cc:OnMessage:131
+14:22:32 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29

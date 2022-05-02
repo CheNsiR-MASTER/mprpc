@@ -1,0 +1,1 @@
+9:31:37 =>[info] method name : GetFriendsList => /home/admin/linux/RPC/src/rpcprovider.cc:NotifyService:29
